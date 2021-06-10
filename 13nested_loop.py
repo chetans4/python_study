@@ -5,18 +5,21 @@
 #        print "("+str(x)+","+str(y)+")"
 
 
-print "-------Assignment--------------"
+print ("-------Assignment--------------")
 numbers = [5,2,5,2,2]
 for i in numbers:
     output =""
     for j in range(i):
         output += '*'
-    print output
-    
-print "-------Assignment 2--------------"
+    print (output)
+
+
+
+print ("-------Assignment 2--------------")
 numbers = [2,2,2,2,5,5]
 for i in numbers:
     output=''
     for j in range(i):
         output += '*'
-    print output
+    print (output)
+

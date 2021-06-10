@@ -29,13 +29,13 @@ secret_num = 9
 guess_count = 0
 while guess_count < guess_limit:
     guess_count +=1
-    guess_num = int(raw_input("Guess : "))
+    guess_num = int(input("Guess : "))
     if guess_num == secret_num:
-        print "You won!"
+        print ("You won!")
         break
 else:   #In python while has an else part
-    print "You failed!"
-print "Done."
+    print ("You failed!")
+print ("Done.")
 
 
 

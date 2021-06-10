@@ -1,31 +1,31 @@
 #Airthmetic operations
-#to import future release functionality for division, tekes python 3 / operator functionality, in python / and // worksas same.
-from __future__ import division
+#to import future release functionality for division, tekes python 3 / operator functionality, in python / and // works as same.
+# from __future__ import division # not required as we are on python 3
 
-print 10 / 3
-print 'devide result as integer only'
-#print 10 // 3
+print (10 / 3)
+print ('devide result as integer only wit // : ')
+print (10 // 3)
 
-print 10 * 3
-print 'power function'
-print 10 ** 3
+print (10 * 3)
+print ('power function ** ')
+print (10 ** 3)
 
 
 x = 10
 x = x+ 3
-print x
+print (x)
 
 y =10
 y += 3
-print y
+print (y)
 
 
-print "-------------------------------Operator preceidence----------------------------------------"
+print ("-------------------------------Operator preceidence----------------------------------------")
 x = 10 + 3 *2
-print x
+print (x)
 
 x = 10 *2 - 6 /2
-print x
+print (x)
 
 # brecate or parenthisis
 # exponciation 2 ** 3
@@ -33,17 +33,5 @@ print x
 #addition or substration
 
 
-print ((2+3)*10 -3)
-
-
-
-
-
-
-
-
-
-
-
-
+print ((2+3)*10 -3) #47
 

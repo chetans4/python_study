@@ -1,5 +1,7 @@
 #Utils module
 
+print("-------- Utils module -------------- ")
+
 def find_max(numbers):
     maxnum = numbers[0]
     for number in numbers:

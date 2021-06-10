@@ -10,10 +10,10 @@ cal_cost(discount=0.1, price =20, shipping=2)
 #NameError: name 'square' is not defined if not complete import or method not import.
 #print A21keyword_arg.square(int(raw_input("Enter number to square : ")))
 
-print "-----------------------Assignment---------------------------------------------"
+print ("-----------------------Assignment---------------------------------------------")
 
 import utils_module
 
-numbers = [10,2,5,19]
-print utils_module.find_max(numbers)
+numbers = [10,2,5,19, 99]
+print (f"Max by utils_module : {utils_module.find_max(numbers)}")
 

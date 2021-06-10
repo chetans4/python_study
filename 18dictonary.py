@@ -6,22 +6,22 @@ customer = {
     "is_verified":True
 }
 
-print customer.get("name")
+print (customer.get("name1"))
 
 #key error if looking for key which don't exists and it is case sencitive
-print customer["name"]
+print (customer["name"])
 
 #if key don't have value then we can supply a default value
-print customer.get("birthdate", "Jan 1 1997")
+print (customer.get("birthdate", "Jan 1 1997"))
 
 customer["name"] = "CS Choudhary"
 
+#if key doesn't exists then it will add new.
 customer["birthdate"] = "20 May 92"
 
+print (customer)
 
-print customer
-
-print "----------------------------------Assignment----------------------------------------"
+print ("----------------------------------Assignment----------------------------------------")
 
 numbers = {
     1: "One",
@@ -36,12 +36,12 @@ numbers = {
     0: "Zero"
 }
 
-input_number = raw_input("Phone : ")
+input_number = input("Phone : ")
 output = ""
 for degit in input_number:
     output += numbers.get(int(degit), "!")+ " "
 
-print output
+print (output)
 
 
 
